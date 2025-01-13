@@ -1,7 +1,7 @@
 //设置变量SUB,节点类型vl+ess,节点名称设为Country-名称，优选ip设置为ip.sb,会自动替换国家和优选
 //订阅链接格式:域名/token=值?cf_port=值
 const CONFIG = {
-    TOKEN: '666666',  //订阅链接密钥
+    TOKEN: '111',  //订阅链接密钥
     API: 'https://vps789.com/public/sum/cfIpApi',  //优选ip的api
     SUB: ''  //自定义链接,多个用;隔开
 };
