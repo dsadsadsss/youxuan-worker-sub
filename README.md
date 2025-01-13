@@ -1,4 +1,4 @@
-# cf-worker-sub
+# cf-worker节点一个变多个
 
 vless类型的woker节点自动生成多个ip节点订阅
 
