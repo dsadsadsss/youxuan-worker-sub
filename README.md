@@ -17,4 +17,4 @@
 ```
 vless://5ca1ad-861c-47f-abd-a569278518f8@ip.sb:443?mode=stream-one&path=%2Fxhttp%2F&security=tls&alpn=h2&encryption=none&host=xhttp.nez.com&fp=chrome&type=xhttp&sni=xhttp.nez.com#Country-cf_xhttp1;vless://9ca1ad-05861c-47f-abd-fc692216518f8@ip.sb:443?mode=stream-one&path=%2Fxhttp%2F&security=tls&alpn=h2&encryption=none&host=xhttp.nez.com&fp=chrome&type=xhttp&sni=xhttp.nez.com#Country-cf_xhttp2
 ```
-vmess节点可用在v2rayn软件填好设置再复制链接即可
+vless是明文可以直接修改，vmess节点可用在v2rayn软件填好配置再复制链接即可.
