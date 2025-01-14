@@ -7,7 +7,7 @@
 //https://addressesapi.090227.xyz/CloudFlareYes
 const CONFIG = {
     TOKEN: '111',  //订阅链接密钥
-    API: 'https://ip.164746.xyz/ipTop10.html;https://addressesapi.090227.xyz/CloudFlareYes;https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt;https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestproxy.txt;https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestcf.txt',  //优选ip的api,多个用;隔开
+    API: 'https://addressesapi.090227.xyz/CloudFlareYes;https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt;https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestcf.txt;https://ip.164746.xyz/ipTop10.html',  //优选ip的api,多个用;隔开
     SUB: '',  //自定义链接,多个用;隔开
     CFIPS: 'ip.sb;bestcf.030101.xyz' ,//优选域名,多个用;隔开
     COUNTRY_REPLACE: 'YM' // 域名的简称
