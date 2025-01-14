@@ -1,15 +1,18 @@
 //设置变量SUB,节点名称设为Country-名称，优选ip设置为ip.sb,会自动替换国家和优选
 //订阅链接格式:域名/token=值?cf_port=值
+//以下是我找到的优选ip的api地址，你也可以搭建自己的api
 //https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestproxy.txt
 //https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestcf.txt
-//https://ip.164746.xyz/ipTop10.html;https://vps789.com/public/sum/cfIpApi;https://www.wetest.vip/api/cf2dns/get_cloudflare_ip&type=v4&key=o1zrmHAF
+//https://ip.164746.xyz/ipTop10.html
+//https://vps789.com/public/sum/cfIpApi
+//https://www.wetest.vip/api/cf2dns/get_cloudflare_ip&type=v4&key=o1zrmHAF
 //https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt
 //https://addressesapi.090227.xyz/CloudFlareYes
 const CONFIG = {
     TOKEN: '111',  //订阅链接密钥
     API: 'https://addressesapi.090227.xyz/CloudFlareYes;https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt;https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestcf.txt;https://ip.164746.xyz/ipTop10.html',  //优选ip的api,多个用;隔开
     SUB: '',  //自定义链接,多个用;隔开
-    CFIPS: 'ip.sb;bestcf.030101.xyz' ,//优选域名,多个用;隔开
+    CFIPS: 'ip.sb;bestcf.030101.xyz;cf.877774.xyz' ,//优选域名,多个用;隔开
     COUNTRY_REPLACE: 'YM' // 域名的简称
 };
 //排除包含关键词的节点
