@@ -1,6 +1,7 @@
 //设置变量SUB,节点名称设为Country-名称，优选ip设置为ip.sb,会自动替换国家和优选
 //订阅链接格式:域名/token=值?cf_port=值
 //以下是我找到的优选ip的api地址，你也可以搭建自己的api
+//https://raw.githubusercontent.com/ztwww2222/youxuanyuming/refs/heads/main/ip.txt
 //https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestproxy.txt
 //https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/bestcf.txt
 //https://ip.164746.xyz/ipTop10.html
