@@ -13,7 +13,7 @@
 //https://addressesapi.090227.xyz/ip.164746.xyz
 const CONFIG = {
     TOKEN: '111',  //订阅链接密钥
-    API: 'https://raw.githubusercontent.com/ZhiXuanWang/cf-speed-dns/refs/heads/main/ipTop10.html;https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt;https://vps789.com/public/sum/cfIpApi',  //优选ip的api,多个用;隔开
+    API: 'https://raw.githubusercontent.com/ZhiXuanWang/cf-speed-dns/refs/heads/main/ipTop10.html;https://vps789.com/public/sum/cfIpApi',  //优选ip的api,多个用;隔开
     SUB: '',  //自定义链接,多个用;隔开
     CFIPS: 'ip.sb;bestcf.030101.xyz;cf.090227.xyz' ,//优选域名,多个用;隔开
     COUNTRY_REPLACE: 'YM' // 优选域名节点国家的拼音简称
