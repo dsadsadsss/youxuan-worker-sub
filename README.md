@@ -19,7 +19,12 @@ cf域名/token=111?cf_port=443
 
 (把111换成你实际设置的token,443可以换成cf通用端口如2053，8443)
 ```
-
+```
+//完整格式: 域名/token=值?cf_port=值&url=API地址&sub=订阅链接
+//参数说明：
+//  - url: 自定义优选IP的API地址，多个用分号(;)隔开
+//  - sub: 自定义订阅链接，多个用分号(;)隔开
+```
 3.SUB变量填的节点链接示例，仿照着设置即可:
 ```
 vless://5ca1ad-861c-47f-abd-a569278518f8@ip.sb:443?mode=stream-one&path=%2Fxhttp%2F&security=tls&alpn=h2&encryption=none&host=xhttp.nez.com&fp=chrome&type=xhttp&sni=xhttp.nez.com#Country-cf_xhttp1;vless://9ca1ad-05861c-47f-abd-fc692216518f8@ip.sb:443?mode=stream-one&path=%2Fxhttp%2F&security=tls&alpn=h2&encryption=none&host=xhttp.nez.com&fp=chrome&type=xhttp&sni=xhttp.nez.com#Country-cf_xhttp2
